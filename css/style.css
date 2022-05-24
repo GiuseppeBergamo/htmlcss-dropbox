@@ -76,6 +76,10 @@ ul{
 .bold{
     font-weight: bold;
 }
+
+.mb-50{
+    margin-bottom: 50px;
+}
 /* Header */
 
 #navbar{
@@ -308,4 +312,26 @@ ul{
     text-decoration: none;
     color: gray;
     border: 2px solid grey;
+}
+
+
+/* Third Section */
+
+.dropbox-operations h2{
+    font-size: 36px;
+}
+
+.dropbox-operations .row{
+    flex-wrap: wrap;
+}
+
+.operation{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.operation img{
+    width: 100%;
 }
