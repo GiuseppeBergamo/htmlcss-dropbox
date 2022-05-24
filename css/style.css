@@ -317,6 +317,10 @@ ul{
 
 /* Third Section */
 
+.dropbox-operations{
+    margin-bottom: 200px;
+}
+
 .dropbox-operations h2{
     font-size: 36px;
 }
@@ -334,4 +338,17 @@ ul{
 
 .operation img{
     width: 100%;
+}
+
+
+/* Fourth Section */
+
+.clients{
+    min-height: 200px;
+    margin-bottom: 100px;
+
+}
+
+.clients h2{
+    font-size: 40px;
 }
