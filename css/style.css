@@ -169,6 +169,8 @@ ul{
 /* Main */
 
 
+/* First Section - COLUMNS */
+
 #business-plan h2{
     font-size: 36px;
 }
@@ -259,6 +261,7 @@ ul{
     min-height: 200px;
     width: 100%;
     border: 2px solid lightgray;
+    margin-bottom: 100px;
 }
 
 .contatta-enterprise .plan-content{
@@ -272,4 +275,37 @@ ul{
 .content-button-box{
     width: 30%;
     text-align: right;
+}
+
+
+/* Second Section - PARTNERS */
+
+
+.find-partner{
+    min-height: 200px;
+    display: flex;
+    margin-bottom: 150px;
+}
+
+
+.img-partner{
+    width: 60%;
+
+}
+
+.img-partner img{
+    width: 100%;
+}
+
+
+.contact-partner{
+    width: 40%;
+    padding: 50px 60px;
+}
+
+.buttonlink-gray{
+    padding: 10px 15px;
+    text-decoration: none;
+    color: gray;
+    border: 2px solid grey;
 }
