@@ -315,7 +315,7 @@ ul{
 }
 
 
-/* Third Section */
+/* Third Section OPERATIONS */
 
 .dropbox-operations{
     margin-bottom: 200px;
@@ -341,7 +341,7 @@ ul{
 }
 
 
-/* Fourth Section */
+/* Fourth Section CLIENTS */
 
 .clients{
     min-height: 200px;
@@ -353,7 +353,7 @@ ul{
     font-size: 40px;
 }
 
-/* Fifth Section */
+/* Fifth Section SQUARES */
 
 .client-boxes{
     display: flex;
@@ -431,7 +431,7 @@ ul{
 }
 
 
-/* Sixth Section */
+/* Sixth Section TRIAL */
 
 .start-trial{
     background-color: #b4d0e7;
@@ -458,4 +458,32 @@ ul{
 .trial-button .buttonlink-gray{
     border: 1px solid white;
     background-color: white;
+}
+
+/* Seventh Section FREQUENTLY ASKED */
+
+.frequently-asked{
+    height: 500px;
+}
+
+.frequently-asked .smallcontainer{
+    padding: 100px 0;
+}
+
+.smallcontainer h2{
+    font-size: 24px;
+}
+
+.question-line{
+    display: flex;
+}
+
+.question-line .question{
+    width: 70%;
+}
+
+.question-line .question-angle{
+    width: 30%;
+    text-align: right;
+    padding-right: 35px;
 }
