@@ -26,6 +26,12 @@ ul{
 .fa-check{
     color: #0061ff;
 }
+
+footer{
+    background-color: #000;
+    min-height: 600px;
+}
+
 /* Utilities */
 
 .bigcontainer{
@@ -464,6 +470,7 @@ ul{
 
 .frequently-asked{
     height: 500px;
+    margin-bottom: 100px;
 }
 
 .frequently-asked .smallcontainer{
@@ -486,4 +493,32 @@ ul{
     width: 30%;
     text-align: right;
     padding-right: 35px;
+}
+
+
+/* FOOTER */
+
+
+footer .link-flexcontainer{
+    display: flex;
+}
+
+.column-link{
+    width: 20%;
+    color: white;
+}
+
+.column-link a{
+    text-decoration: none;
+    color: white;
+}
+
+footer hr{
+    margin-top: 50px;
+    width: 20%;
+}
+
+
+.languages{
+    color: grey;
 }
