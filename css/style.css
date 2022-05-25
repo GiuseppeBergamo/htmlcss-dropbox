@@ -44,10 +44,17 @@ footer{
 .buttonlink{
     color: white;
     background-color: #0061ff;
+    border: 2px solid #0061ff;
     display: inline-block;
     padding: 10px 15px;
     text-decoration: none;
+    transition: background-color 0.2s linear;
 }
+
+.buttonlink:hover{
+    background-color: #b4d0e7;
+}
+
 
 
 .smallcontainer{
