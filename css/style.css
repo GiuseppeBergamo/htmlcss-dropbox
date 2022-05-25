@@ -431,3 +431,31 @@ ul{
 }
 
 
+/* Sixth Section */
+
+.start-trial{
+    background-color: #b4d0e7;
+    height: 300px;
+    padding: 100px 0;
+}
+
+.trial-content{
+    display: flex;
+}
+
+.trial-title{
+    width: 50%;
+    color: #60082b;
+    font-size: 24px;
+}
+
+.trial-button{
+    width: 50%;
+    text-align: right;
+
+}
+
+.trial-button .buttonlink-gray{
+    border: 1px solid white;
+    background-color: white;
+}
